@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+</body>
+    <form action="processo.php" method="post"></html>
+    <form>
+        <label for="nome">Nome:
+        <input type="text" placeholder="Digite seu nome completo" name="Nome" size="30" maxlength="50"> 
+    </label>
+    <br><br>
+    <label for="email">Email:
+        <input type="email" placeholder="Digite seu email" name="Email" size="30" maxlength="50" required>
+    </label>
+    <br><br>
+    <label for="senha">Senha:
+        <input type="password" placeholder="Digite sua senha" name="Senha" size="30" maxlength="50" required>
+    </label>
+    <br><br>
+    <label for="end">Endereço:
+        <input type="text" placeholder="Digite seu endereço" name="Senha" size="30" maxlenght="50">
+    </label>
+    <br><br>
+    <label for="Cidade">Cidade:
+            <input type="text" placeholder="Digite sua cidade" name="Cidade" size="30" maxlength="50">
+    </label>
+ 
+    <label for="uf">UF:
+        <select name="UF" id="uf">
+            <option value="PR">PR</option>
+            <option value="SC" selected>SC</option>
+            <option value="RS">RS</option>
+
+        </select>
+    </label>
+        <br><br>
+        <label for="ref">Referencia:
+            <textarea placeholder="Área para texto"  name="ref"  cols="30" rows="5" maxlength="20"></textarea>
+    </label><br>
+
+    <label for="card"><br>
+        Selecione a bandeira do cartão: <br>
+        <input type="radio" name="Cartao" class="cartao">Mastercard <br>
+        <input type="radio" name="Cartao" class="cartao" checked>Visa <br>
+        <input type="radio" name="Cartao" class="cartao">Ouro <br>
+    
+    </label>
+    <label for=""><br>
+        <input type="checkbox" name="termo" id>
+        Li e aceito todos os termos de uso <br>
+        
+        <input type="checkbox" name="receber_email" id="" checked>
+        Aceito receber novidades e promoções por email <br> <br>
+    </label>
+    <input type="submit" value="Enviar" name="enviar">
+    <input type="reset" value="Limpar" name="limpar">
+
+    <input type="hidden" name="ID" value="12">
+    
+    </form>
+</body>
+</html>

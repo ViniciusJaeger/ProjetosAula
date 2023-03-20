@@ -1,0 +1,22 @@
+.flex-container{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+  
+}
+
+.flex-container > div{
+    background-color: white;
+    margin: 40px;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.section{
+    display: flex
+}
+
+
